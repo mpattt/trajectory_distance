@@ -11,7 +11,7 @@ ext_modules = [Extension("traj_dist.cydist.basic_geographical", [ "traj_dist/cyd
                Extension("traj_dist.cydist.hausdorff", [ "traj_dist/cydist/hausdorff.pyx" ]),
                Extension("traj_dist.cydist.discret_frechet", [ "traj_dist/cydist/discret_frechet.pyx" ]),
                Extension("traj_dist.cydist.frechet", [ "traj_dist/cydist/frechet.pyx" ]),
-               #Extension("traj_dist.cydist.distance", [ "traj_dist/cydist/distance.pyx" ]),
+               Extension("traj_dist.cydist.distance", [ "traj_dist/cydist/distance.pyx" ]),
                Extension("traj_dist.cydist.segment_distance", [ "traj_dist/cydist/segment_distance.pyx" ]),
                Extension("traj_dist.cydist.sowd", [ "traj_dist/cydist/sowd.pyx" ]),
                Extension("traj_dist.cydist.erp", [ "traj_dist/cydist/erp.pyx" ]),
